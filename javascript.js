@@ -5,7 +5,7 @@ let userInput = document.getElementById("userInput");
 let randomNumber = Math.ceil(Math.random() * 100);
 
 /* Function to check the user's guess against the random number */
-
+ 
 function checkGuess() {
   let guessedNumber = parseInt(userInput.value);
   if (guessedNumber > randomNumber) {
